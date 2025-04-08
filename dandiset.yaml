@@ -26,9 +26,7 @@ contributor:
   - dcite:ContactPerson
   schemaKey: Person
 dateCreated: '2024-12-09T18:40:45.382902+00:00'
-description: "Data for the LINC project.  \n\nModalities include:\n- Diffusion-weighted
-  magnetic resonance imaging (dMRI)\n- Light-sheet microscopy (LSM)\n- Polarization
-  sensitive optical coherence tomography (PS-OCT)"
+description: Data for the LINC project.
 ethicsApproval: []
 id: DANDI:001278/draft
 identifier: DANDI:001278
