@@ -42,7 +42,12 @@ contributor:
   name: Gunalan, Kabilar
   schemaKey: Person
 dateCreated: '2024-12-09T18:40:45.382902+00:00'
-description: Data for the LINC project.
+description: 'The center for Large-scale Imaging of Neural Circuits (LINC) is funded
+  by an NIH BRAIN Initiative CONNECTS UM1 comprehensive center award (PIs: Haber,
+  Hillman, Yendiki). Its goal is to develop novel technologies for imaging brain connections
+  down to the microscopic scale, and deploy these technologies to image cortico-subcortical
+  projections that are relevant to deep-brain stimulation for motor and psychiatric
+  disorders.'
 ethicsApproval: []
 id: DANDI:001278/draft
 identifier: DANDI:001278
