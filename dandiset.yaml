@@ -14,9 +14,16 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach: []
+  dataStandard: []
+  measurementTechnique: []
+  numberOfBytes: 533205106
+  numberOfFiles: 5
+  numberOfSamples: 1
+  numberOfSubjects: 1
   schemaKey: AssetsSummary
+  species: []
+  variableMeasured: []
 citation: Yendiki, Anastasia; Gong, Ting; Maffei, Chiara; Gunalan, Kabilar; Ghosh,
   Satrajit (2026) NIH BRAIN CONNECTS - LINC UM1 - Human Data (Version draft) [Data
   set]. DANDI Archive. https://dandiarchive.org/dandiset/001278/draft
@@ -71,6 +78,11 @@ relatedResource:
   relation: dcite:IsPartOf
   schemaKey: Resource
   url: https://connects.mgh.harvard.edu
+- name: LINC Gallery
+  relation: dcite:IsSourceOf
+  resourceType: dcite:InteractiveResource
+  schemaKey: Resource
+  url: https://gallery.lincbrain.org
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.8
