@@ -17,8 +17,8 @@ assetsSummary:
   approach: []
   dataStandard: []
   measurementTechnique: []
-  numberOfBytes: 533205106
-  numberOfFiles: 5
+  numberOfBytes: 584411772
+  numberOfFiles: 6
   numberOfSamples: 1
   numberOfSubjects: 1
   schemaKey: AssetsSummary
@@ -36,8 +36,7 @@ contributor:
 - email: ayendiki@mgh.harvard.edu
   includeInCitation: true
   name: Yendiki, Anastasia
-  roleName:
-  - dcite:ContactPerson
+  roleName: []
   schemaKey: Person
 - includeInCitation: true
   name: Gong, Ting
@@ -47,6 +46,8 @@ contributor:
   schemaKey: Person
 - includeInCitation: true
   name: Gunalan, Kabilar
+  roleName:
+  - dcite:ContactPerson
   schemaKey: Person
 - includeInCitation: true
   name: Ghosh, Satrajit
