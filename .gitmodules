@@ -1,0 +1,8 @@
+[submodule "sourcedata/raw/sub-I74/micr/sub-I74_sample-IC_acq-overview_XPCT.ome.zarr"]
+	path = sourcedata/raw/sub-I74/micr/sub-I74_sample-IC_acq-overview_XPCT.ome.zarr
+	url = https://github.com/dandizarrs/1cd1a161-ca2c-4121-b97a-eeb98f00ce01
+	datalad-id = 9733cc82-d709-4ebc-b668-94cb2507b396
+[submodule "sourcedata/raw/sub-I74/micr/sub-I74_sample-hemi_acq-overview_XPCT.ome.zarr"]
+	path = sourcedata/raw/sub-I74/micr/sub-I74_sample-hemi_acq-overview_XPCT.ome.zarr
+	url = https://github.com/dandizarrs/6f11427f-ef86-42b8-9800-d3e09265c965
+	datalad-id = ca53edb2-f9d1-40b8-8569-f8d1cb7a0aa5
