@@ -23,8 +23,8 @@ assetsSummary:
     name: OME/NGFF Standard
     schemaKey: StandardsType
   measurementTechnique: []
-  numberOfBytes: 1324655991014
-  numberOfFiles: 21
+  numberOfBytes: 1457855623354
+  numberOfFiles: 22
   numberOfSamples: 2
   numberOfSubjects: 3
   schemaKey: AssetsSummary
@@ -122,7 +122,8 @@ description: 'The center for Large-scale Imaging of Neural Circuits (LINC) is fu
   Hillman, Yendiki). Its goal is to develop novel technologies for imaging brain connections
   down to the microscopic scale, and deploy these technologies to image cortico-subcortical
   projections that are relevant to deep-brain stimulation for motor and psychiatric
-  disorders.'
+  disorders.<br>![figure2-gong-2026](https://www.biorxiv.org/content/biorxiv/early/2026/02/18/2026.02.18.705310/F2.large.jpg)<br>Credit:
+  [Gong et al., bioRxiv 2026](https://doi.org/10.64898/2026.02.18.705310)'
 ethicsApproval: []
 id: DANDI:001278/draft
 identifier: DANDI:001278
