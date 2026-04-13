@@ -20,7 +20,7 @@
 28 OpticTract 78 93 123 255
 29 StriaMedullaris 194 53 222 255
 30 StriaTerminalis 155 103 204 255
-31 Subthalamic Fasciculus 144 204 110 255
+31 SubthalamicFasciculus 144 204 110 255
 32 STN-PPN 71 110 172 255
 33 STN-SN 161 62 230 255
 34 GPi-Hb 159 246 71 255
