@@ -1,35 +1,3 @@
-[submodule "sourcedata/raw/sub-I74/micr/sub-I74_sample-IC_acq-overview_XPCT.ome.zarr"]
-	path = sourcedata/raw/sub-I74/micr/sub-I74_sample-IC_acq-overview_XPCT.ome.zarr
-	url = https://github.com/dandizarrs/1cd1a161-ca2c-4121-b97a-eeb98f00ce01
-	datalad-id = 9733cc82-d709-4ebc-b668-94cb2507b396
-[submodule "sourcedata/raw/sub-I74/micr/sub-I74_sample-hemi_acq-overview_XPCT.ome.zarr"]
-	path = sourcedata/raw/sub-I74/micr/sub-I74_sample-hemi_acq-overview_XPCT.ome.zarr
-	url = https://github.com/dandizarrs/6f11427f-ef86-42b8-9800-d3e09265c965
-	datalad-id = ca53edb2-f9d1-40b8-8569-f8d1cb7a0aa5
-[submodule "sourcedata/raw/sub-I74/micr/sub-I74_sample-IC_acq-zoom_chunk-01_XPCT.ome.zarr"]
-	path = sourcedata/raw/sub-I74/micr/sub-I74_sample-IC_acq-zoom_chunk-01_XPCT.ome.zarr
-	url = https://github.com/dandizarrs/28a250f1-5f86-4a7f-a20e-475ab7b05f3d
-	datalad-id = 69898d5b-4103-4026-bed0-dd1981a97204
-[submodule "sourcedata/raw/sub-I74/micr/10.072um_overview_bm05.ome.zarr"]
-	path = sourcedata/raw/sub-I74/micr/10.072um_overview_bm05.ome.zarr
-	url = https://github.com/dandizarrs/8614826c-c4d1-4df5-89b8-9d68e5a17734
-	datalad-id = 8988f0db-6c1c-4afa-b772-4782465a5b35
-[submodule "sourcedata/raw/sub-I74/micr/sub-I74_sample-IC_acq-zoom_chunk-02_XPCT.ome.zarr"]
-	path = sourcedata/raw/sub-I74/micr/sub-I74_sample-IC_acq-zoom_chunk-02_XPCT.ome.zarr
-	url = https://github.com/dandizarrs/cc3217f2-4d73-41df-85c4-78b81a0ea611
-	datalad-id = 5bf051bf-1eaf-4410-b173-adfb456c6bca
-[submodule "sourcedata/raw/sub-I74/micr/sub-I74_sample-IC_acq-zoom_chunk-03_XPCT.ome.zarr"]
-	path = sourcedata/raw/sub-I74/micr/sub-I74_sample-IC_acq-zoom_chunk-03_XPCT.ome.zarr
-	url = https://github.com/dandizarrs/5d054273-89c6-4d4d-b82a-de4feea3b2cc
-	datalad-id = 995f8543-810b-4238-bbb3-2f6da384a608
-[submodule "sourcedata/raw/sub-I74/micr/sub-I74_sample-hemi_acq-zoom_chunk-02_XPCT.ome.zarr"]
-	path = sourcedata/raw/sub-I74/micr/sub-I74_sample-hemi_acq-zoom_chunk-02_XPCT.ome.zarr
-	url = https://github.com/dandizarrs/0a89ff02-90c4-4d3d-8275-8bc8ee140715
-	datalad-id = f88048a7-a116-4747-b2a1-a87dc7749a99
-[submodule "sourcedata/raw/sub-I74/micr/sub-I74_sample-hemi_acq-zoom_chunk-01_XPCT.ome.zarr"]
-	path = sourcedata/raw/sub-I74/micr/sub-I74_sample-hemi_acq-zoom_chunk-01_XPCT.ome.zarr
-	url = https://github.com/dandizarrs/d483e140-ccd7-4bcf-8a69-a10b7087381c
-	datalad-id = 2cc179aa-d695-4e72-8af2-f2040034e13c
 [submodule "sourcedata/raw/sub-Hb1/micr/10.072um_overview_bm05.ome.zarr"]
 	path = sourcedata/raw/sub-Hb1/micr/10.072um_overview_bm05.ome.zarr
 	url = https://github.com/dandizarrs/8614826c-c4d1-4df5-89b8-9d68e5a17734
