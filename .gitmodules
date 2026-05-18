@@ -38,3 +38,7 @@
 	path = sourcedata/raw/sub-Hb1/micr/sub-Hb1_sample-lefthemi+ICblock+punch1+piece1+trim9_uCT.ome.zarr
 	url = https://github.com/dandizarrs/a681e174-ae6b-4fc7-8576-6f2f96dc12e4
 	datalad-id = f49f3efc-6e62-4590-9ae9-a16fd92c23d4
+[submodule "sourcedata/raw/sub-I71/micr/sub-I71_sample-leftHemi_acq-zoom_chunk-01_XPCT.ome.zarr"]
+	path = sourcedata/raw/sub-I71/micr/sub-I71_sample-leftHemi_acq-zoom_chunk-01_XPCT.ome.zarr
+	url = https://github.com/dandizarrs/715f7747-f166-4204-958f-051e0413ad80
+	datalad-id = c8c5d74e-27c9-4007-a11d-e01bc728301c
