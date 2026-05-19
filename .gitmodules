@@ -46,3 +46,7 @@
 	path = sourcedata/raw/sub-I71/micr/sub-I71_sample-leftHemi_acq-zoom_chunk-02_XPCT.ome.zarr
 	url = https://github.com/dandizarrs/64909400-ee3f-4693-a8f6-eb2a579e3099
 	datalad-id = f1816336-c759-4995-b4fe-268463551def
+[submodule "derivatives/sub-Hb1/dwi/sub-Hb1_sample-lefthemi_space-XPCT_desc-CSD_tractography.precomputed.not.a.zarr"]
+	path = derivatives/sub-Hb1/dwi/sub-Hb1_sample-lefthemi_space-XPCT_desc-CSD_tractography.precomputed.not.a.zarr
+	url = https://github.com/dandizarrs/941034d7-d423-41a3-88e8-4c35b23ce211
+	datalad-id = 1ae25871-d948-46a5-88f6-27e5a0d3fa59
