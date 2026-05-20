@@ -17580,7 +17580,7 @@
 "blobDateModified":
 "2026-05-20T19:09:43.488296Z",
 "contentSize":
-0,
+773806890520,
 "contentUrl":
 [
 "https://api.dandiarchive.org/api/assets/44e55537-0c9f-410b-b7c9-24126040874a/download/",
@@ -17591,7 +17591,7 @@
 "digest":
 {
 "dandi:dandi-zarr-checksum":
-null
+"75029d9bdfea2569a62312ac86944d54-868--773806890520"
 },
 "encodingFormat":
 "application/x-zarr",
@@ -17641,11 +17641,11 @@ null
 ]
 },
 "modified":
-"2026-05-20T20:19:38.596414Z",
+"2026-05-20T23:42:24.975655Z",
 "path":
 "sourcedata/raw/sub-I71/micr/sub-I71_sample-leftHemi-overview_XPCT.ome.zarr",
 "size":
-0,
+773806890520,
 "zarr":
 "2b5428c6-b667-40c6-a257-61973cff5005"
 },
