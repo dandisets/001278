@@ -54,3 +54,11 @@
 	path = sourcedata/raw/sub-I71/micr/sub-I71_sample-leftHemi-overview_XPCT.ome.zarr
 	url = https://github.com/dandizarrs/2b5428c6-b667-40c6-a257-61973cff5005
 	datalad-id = 3ffde2fd-1d42-407f-97e1-f48124b69bc2
+[submodule "sourcedata/raw/sub-Hb2/micr/sub-Hb2_sample-leftHemi-overview_XPCT.ome.zarr"]
+	path = sourcedata/raw/sub-Hb2/micr/sub-Hb2_sample-leftHemi-overview_XPCT.ome.zarr
+	url = https://github.com/dandizarrs/2b5428c6-b667-40c6-a257-61973cff5005
+	datalad-id = 3ffde2fd-1d42-407f-97e1-f48124b69bc2
+[submodule "sourcedata/raw/sub-Hb2/micr/sub-Hb2_sample-leftHemi_acq-zoom_chunk-01_XPCT.ome.zarr"]
+	path = sourcedata/raw/sub-Hb2/micr/sub-Hb2_sample-leftHemi_acq-zoom_chunk-01_XPCT.ome.zarr
+	url = https://github.com/dandizarrs/715f7747-f166-4204-958f-051e0413ad80
+	datalad-id = c8c5d74e-27c9-4007-a11d-e01bc728301c
