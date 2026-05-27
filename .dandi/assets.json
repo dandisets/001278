@@ -15503,7 +15503,7 @@
 "blobDateModified":
 "2026-05-27T11:53:11.392327-04:00",
 "contentSize":
-0,
+16956998625,
 "contentUrl":
 [
 "https://api.dandiarchive.org/api/assets/da834abf-ef0a-47e8-bbc9-7bb6fda8e899/download/",
@@ -15514,7 +15514,7 @@
 "digest":
 {
 "dandi:dandi-zarr-checksum":
-null
+"01b7e42b5475482453af3d9e84b7630a-10387--16956998625"
 },
 "encodingFormat":
 "application/x-zarr",
@@ -15562,11 +15562,11 @@ null
 ]
 },
 "modified":
-"2026-05-27T15:54:41.750832Z",
+"2026-05-27T16:24:48.005969Z",
 "path":
 "derivatives/sub-Hb1/dwi/sub-Hb1_sample-lefthemi_space-XPCT_desc-CSD_tractography.precomputed.not.a.zarr",
 "size":
-0,
+16956998625,
 "zarr":
 "941034d7-d423-41a3-88e8-4c35b23ce211"
 },
