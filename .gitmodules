@@ -54,3 +54,7 @@
 	path = sourcedata/raw/sub-Hb1/micr/sub-Hb1_sample-lefthemi+ICblock_acq-zoom3_XPCT.ome.zarr
 	url = https://github.com/dandizarrs/5d054273-89c6-4d4d-b82a-de4feea3b2cc
 	datalad-id = 995f8543-810b-4238-bbb3-2f6da384a608
+[submodule "sourcedata/raw/sub-Hb1/micr/sub-Hb1_sample-lefthemi+ICblock+punch1+piece2_uCT.ome.zarr"]
+	path = sourcedata/raw/sub-Hb1/micr/sub-Hb1_sample-lefthemi+ICblock+punch1+piece2_uCT.ome.zarr
+	url = https://github.com/dandizarrs/8507935b-39a0-4ce4-87da-58906eebdb74
+	datalad-id = 16838c02-e284-4472-a8ab-2094f6b4fd68
