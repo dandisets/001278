@@ -23,33 +23,55 @@ assetsSummary:
     name: OME/NGFF Standard
     schemaKey: StandardsType
   measurementTechnique: []
-  numberOfBytes: 5615332278150
-  numberOfFiles: 159
+  numberOfBytes: 5686540049132
+  numberOfFiles: 199
   numberOfSamples: 10
   numberOfSubjects: 3
   schemaKey: AssetsSummary
   species: []
   variableMeasured: []
-citation: Gong, Ting; Maffei, Chiara; Sung, Dongsuk; Chourrout, Matthieu; Bell, Elissa;
-  Wu, Jingjing; Shao, Jasmine; Rosenblum, Emma W; Zeng, Xiangrui; Ramos-Llorden, Gabriel;
-  Müller, Alina; Mahmutovic, Mirsad; Keil, Boris; Gunalan, Kabilar; Ghosh, Satrajit;
-  Augustinack, Jean C; Huang, Susie Y; Haber, Suzanne N; Yendiki, Anastasia (2026)
-  NIH BRAIN CONNECTS - LINC UM1 - Human Data (Version draft) [Data set]. DANDI Archive.
-  https://dandiarchive.org/dandiset/001278/draft
+citation: Gong, Ting; Maffei, Chiara; Sung, Dongsuk; Chourrout, Matthieu; Balbastre,
+  Yaël; Bell, Elissa; Wu, Jingjing; Shao, Jasmine; Rosenblum, Emma W; Zeng, Xiangrui;
+  Ramos-Llorden, Gabriel; Müller, Alina; Mahmutovic, Mirsad; Keil, Boris; Gunalan,
+  Kabilar; Ghosh, Satrajit; Neudorfer, Clemens; Dey, Mihir; Augustinack, Jean C; Huang,
+  Susie Y; Richardson, Robert M; Schalek, Richard; Keenlyside, Andrew; Karlupia, Neha;
+  Gonzales, Ricardo A.; Huszár, István N.; Wanjau, Eric; Brunet, Joseph; Urban, Theresa;
+  Dejea, Hector; Glickman, Bess; Gaibor, Edward J.; Scherick, James; Bintsi, Kyriaki-Margarita;
+  Mauri, Chiara; Analoro, Cole; Bellier, Alexandre; Fischl, Bruce R.; Tafforeau, Paul;
+  Lee, Peter D.; Lichtman, Jeff W.; Walsh, Claire L.; Haber, Suzanne N; Yendiki, Anastasia
+  (2026) NIH BRAIN CONNECTS - LINC UM1 - Human Data (Version draft) [Data set]. DANDI
+  Archive. https://dandiarchive.org/dandiset/001278/draft
 contributor:
 - awardNumber: 1 UM1 NS 132358
   name: National Institutes of Health (NIH)
   roleName:
   - dcite:Funder
   schemaKey: Organization
-- includeInCitation: true
+- affiliation:
+  - identifier: https://ror.org/032q5ym94
+    name: Athinoula A. Martinos Center for Biomedical Imaging
+    schemaKey: Affiliation
+  identifier: 0000-0002-1378-8509
+  includeInCitation: true
   name: Gong, Ting
+  roleName:
+  - dcite:Author
   schemaKey: Person
-- includeInCitation: true
+- affiliation:
+  - identifier: https://ror.org/032q5ym94
+    name: Athinoula A. Martinos Center for Biomedical Imaging
+    schemaKey: Affiliation
+  email: cmaffei@mgh.harvard.edu
+  identifier: 0000-0002-3837-0635
+  includeInCitation: true
   name: Maffei, Chiara
+  roleName:
+  - dcite:Author
   schemaKey: Person
 - includeInCitation: true
   name: Sung, Dongsuk
+  roleName:
+  - dcite:Author
   schemaKey: Person
 - affiliation:
   - identifier: https://ror.org/032q5ym94
@@ -66,61 +88,356 @@ contributor:
   - dcite:Author
   schemaKey: Person
   url: https://github.com/chourroutm
+- identifier: 0000-0001-8758-9978
+  includeInCitation: true
+  name: Balbastre, Yaël
+  roleName:
+  - dcite:Author
+  schemaKey: Person
 - includeInCitation: true
   name: Bell, Elissa
+  roleName:
+  - dcite:Author
   schemaKey: Person
 - includeInCitation: true
   name: Wu, Jingjing
+  roleName:
+  - dcite:Author
   schemaKey: Person
 - includeInCitation: true
   name: Shao, Jasmine
+  roleName:
+  - dcite:Author
   schemaKey: Person
 - includeInCitation: true
   name: Rosenblum, Emma W
+  roleName:
+  - dcite:Author
   schemaKey: Person
 - includeInCitation: true
   name: Zeng, Xiangrui
+  roleName:
+  - dcite:Author
   schemaKey: Person
 - includeInCitation: true
   name: Ramos-Llorden, Gabriel
+  roleName:
+  - dcite:Author
   schemaKey: Person
 - includeInCitation: true
   name: Müller, Alina
+  roleName:
+  - dcite:Author
   schemaKey: Person
 - includeInCitation: true
   name: Mahmutovic, Mirsad
+  roleName:
+  - dcite:Author
   schemaKey: Person
 - includeInCitation: true
   name: Keil, Boris
+  roleName:
+  - dcite:Author
   schemaKey: Person
-- email: kabi@mit.edu
+- affiliation:
+  - identifier: https://ror.org/042nb2s44
+    name: Massachusetts Institute of Technology
+    schemaKey: Affiliation
+  - identifier: https://ror.org/05ymca674
+    name: McGovern Institute for Brain Research
+    schemaKey: Affiliation
+  email: kabi@mit.edu
+  identifier: 0000-0001-6964-4865
   includeInCitation: true
   name: Gunalan, Kabilar
   roleName:
   - dcite:ContactPerson
+  - dcite:Author
   schemaKey: Person
-- includeInCitation: true
-  name: Ghosh, Satrajit
-  schemaKey: Person
-- includeInCitation: true
-  name: Augustinack, Jean C
-  schemaKey: Person
-- includeInCitation: true
-  name: Huang, Susie Y
-  schemaKey: Person
-- includeInCitation: true
-  name: Haber, Suzanne N
-  schemaKey: Person
-- email: ayendiki@mgh.harvard.edu
+- affiliation:
+  - identifier: https://ror.org/042nb2s44
+    name: Massachusetts Institute of Technology
+    schemaKey: Affiliation
+  - identifier: https://ror.org/05ymca674
+    name: McGovern Institute for Brain Research
+    schemaKey: Affiliation
+  email: satra@mit.edu
+  identifier: 0000-0002-5312-6729
   includeInCitation: true
-  name: Yendiki, Anastasia
-  roleName: []
+  name: Ghosh, Satrajit
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- email: cneudorfer@mgh.harvard.edu
+  identifier: 0000-0002-3153-1045
+  includeInCitation: true
+  name: Neudorfer, Clemens
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/01e3m7079
+    name: University of Cincinnati
+    schemaKey: Affiliation
+  email: dey.mihir21@gmail.com
+  identifier: 0009-0007-0416-276X
+  includeInCitation: true
+  name: Dey, Mihir
+  roleName:
+  - dcite:Author
   schemaKey: Person
 - identifier: 0000-0002-1365-1908
   name: Stansby, David
   roleName:
   - dcite:DataManager
   - dcite:DataCurator
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/032q5ym94
+    name: Athinoula A. Martinos Center for Biomedical Imaging
+    schemaKey: Affiliation
+  identifier: 0000-0002-3129-6671
+  includeInCitation: true
+  name: Augustinack, Jean C
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- identifier: 0000-0003-2950-7254
+  includeInCitation: true
+  name: Huang, Susie Y
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- identifier: 0000-0003-2620-7387
+  includeInCitation: true
+  name: Richardson, Robert M
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/03vek6s52
+    name: Harvard University
+    schemaKey: Affiliation
+  identifier: 0000-0003-2450-1718
+  includeInCitation: true
+  name: Schalek, Richard
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/02jx3x895
+    name: University College London
+    schemaKey: Affiliation
+  identifier: 0000-0002-6059-2103
+  includeInCitation: true
+  name: Keenlyside, Andrew
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/03vek6s52
+    name: Harvard University
+    schemaKey: Affiliation
+  identifier: 0000-0003-4059-1290
+  includeInCitation: true
+  name: Karlupia, Neha
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/032q5ym94
+    name: Athinoula A. Martinos Center for Biomedical Imaging
+    schemaKey: Affiliation
+  identifier: 0000-0002-9384-4602
+  includeInCitation: true
+  name: Gonzales, Ricardo A.
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/032q5ym94
+    name: Athinoula A. Martinos Center for Biomedical Imaging
+    schemaKey: Affiliation
+  identifier: 0000-0002-4079-9465
+  includeInCitation: true
+  name: Huszár, István N.
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/02jx3x895
+    name: University College London
+    schemaKey: Affiliation
+  identifier: 0009-0007-5989-129X
+  includeInCitation: true
+  name: Wanjau, Eric
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/02jx3x895
+    name: University College London
+    schemaKey: Affiliation
+  identifier: 0000-0002-8424-9510
+  includeInCitation: true
+  name: Brunet, Joseph
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/02jx3x895
+    name: University College London
+    schemaKey: Affiliation
+  - identifier: https://ror.org/02550n020
+    name: European Synchrotron Radiation Facility
+    schemaKey: Affiliation
+  identifier: 0000-0002-0352-8180
+  includeInCitation: true
+  name: Urban, Theresa
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/02550n020
+    name: European Synchrotron Radiation Facility
+    schemaKey: Affiliation
+  identifier: 0000-0003-2584-9812
+  includeInCitation: true
+  name: Dejea, Hector
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/03vek6s52
+    name: Harvard University
+    schemaKey: Affiliation
+  identifier: 0000-0002-5485-3178
+  includeInCitation: true
+  name: Glickman, Bess
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/04ydmy275
+    name: University of Massachusetts Boston
+    schemaKey: Affiliation
+  identifier: 0009-0009-0400-7529
+  includeInCitation: true
+  name: Gaibor, Edward J.
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/032q5ym94
+    name: Athinoula A. Martinos Center for Biomedical Imaging
+    schemaKey: Affiliation
+  includeInCitation: true
+  name: Scherick, James
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/032q5ym94
+    name: Athinoula A. Martinos Center for Biomedical Imaging
+    schemaKey: Affiliation
+  identifier: 0000-0003-3875-7757
+  includeInCitation: true
+  name: Bintsi, Kyriaki-Margarita
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/032q5ym94
+    name: Athinoula A. Martinos Center for Biomedical Imaging
+    schemaKey: Affiliation
+  identifier: 0000-0002-4928-9744
+  includeInCitation: true
+  name: Mauri, Chiara
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/032q5ym94
+    name: Athinoula A. Martinos Center for Biomedical Imaging
+    schemaKey: Affiliation
+  identifier: 0009-0007-6299-1312
+  includeInCitation: true
+  name: Analoro, Cole
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/02rx3b187
+    name: Université Grenoble Alpes
+    schemaKey: Affiliation
+  identifier: 0000-0003-0907-0315
+  includeInCitation: true
+  name: Bellier, Alexandre
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/032q5ym94
+    name: Athinoula A. Martinos Center for Biomedical Imaging
+    schemaKey: Affiliation
+  identifier: 0000-0002-2413-1115
+  includeInCitation: true
+  name: Fischl, Bruce R.
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/02550n020
+    name: European Synchrotron Radiation Facility
+    schemaKey: Affiliation
+  identifier: 0000-0002-5962-1683
+  includeInCitation: true
+  name: Tafforeau, Paul
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/02jx3x895
+    name: University College London
+    schemaKey: Affiliation
+  identifier: 0000-0002-3898-8881
+  includeInCitation: true
+  name: Lee, Peter D.
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/03vek6s52
+    name: Harvard University
+    schemaKey: Affiliation
+  identifier: 0000-0002-0208-3212
+  includeInCitation: true
+  name: Lichtman, Jeff W.
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/02jx3x895
+    name: University College London
+    schemaKey: Affiliation
+  identifier: 0000-0003-3769-3392
+  includeInCitation: true
+  name: Walsh, Claire L.
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- includeInCitation: true
+  name: Haber, Suzanne N
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- email: ayendiki@mgh.harvard.edu
+  identifier: 0000-0003-1386-3828
+  includeInCitation: true
+  name: Yendiki, Anastasia
+  roleName:
+  - dcite:Author
   schemaKey: Person
 dateCreated: '2024-12-09T18:40:45.382902+00:00'
 description: 'The center for Large-scale Imaging of Neural Circuits (LINC) is funded
@@ -133,6 +450,10 @@ description: 'The center for Large-scale Imaging of Neural Circuits (LINC) is fu
 ethicsApproval: []
 id: DANDI:001278/draft
 identifier: DANDI:001278
+keywords:
+- Multimodal imaging
+- Diffusion MRI
+- Tractography
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
