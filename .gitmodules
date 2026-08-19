@@ -6,10 +6,6 @@
 	path = sourcedata/raw/sub-Hb1/micr/sub-Hb1_sample-lefthemi+ICblock+punch1+piece1+trim2_uCT.ome.zarr
 	url = https://github.com/dandizarrs/c73dec16-644d-4801-9792-2e8fce8602de
 	datalad-id = cf99e984-7586-40df-a5f5-36ed9ced5731
-[submodule "sourcedata/raw/sub-Hb1/micr/sub-Hb1_sample-lefthemi+ICblock+punch1+piece1+trim9_uCT.ome.zarr"]
-	path = sourcedata/raw/sub-Hb1/micr/sub-Hb1_sample-lefthemi+ICblock+punch1+piece1+trim9_uCT.ome.zarr
-	url = https://github.com/dandizarrs/a681e174-ae6b-4fc7-8576-6f2f96dc12e4
-	datalad-id = f49f3efc-6e62-4590-9ae9-a16fd92c23d4
 [submodule "derivatives/sub-Hb1/dwi/sub-Hb1_sample-lefthemi_space-XPCT_desc-CSD_tractography.precomputed.not.a.zarr"]
 	path = derivatives/sub-Hb1/dwi/sub-Hb1_sample-lefthemi_space-XPCT_desc-CSD_tractography.precomputed.not.a.zarr
 	url = https://github.com/dandizarrs/941034d7-d423-41a3-88e8-4c35b23ce211
