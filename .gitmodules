@@ -70,3 +70,11 @@
 	path = sourcedata/raw/sub-Hb2/micr/sub-Hb2_sample-leftHemi+STNblock_acq-overview_XPCT.ome.zarr
 	url = https://github.com/dandizarrs/7338fb69-1923-4357-902e-cbe1875d176a
 	datalad-id = f64be813-bfc7-4e44-b859-322cc28304ab
+[submodule "sourcedata/raw/sub-Hb2/micr/0.858um_I71_brain-STN_ROI-3.ome.zarr"]
+	path = sourcedata/raw/sub-Hb2/micr/0.858um_I71_brain-STN_ROI-3.ome.zarr
+	url = https://github.com/dandizarrs/c32285e9-b86e-45bf-a303-eaa1ba1f08e9
+	datalad-id = ab0fde35-c05a-46e5-8c53-6da0b10bdb1f
+[submodule "sourcedata/raw/sub-Hb2/micr/0.858um_I71_brain-STN_VOI-2.ome.zarr"]
+	path = sourcedata/raw/sub-Hb2/micr/0.858um_I71_brain-STN_VOI-2.ome.zarr
+	url = https://github.com/dandizarrs/fe9be330-f9b3-4f71-aaec-12e29186a4a3
+	datalad-id = c2302436-e265-4e9c-bf83-63c5f0109777
