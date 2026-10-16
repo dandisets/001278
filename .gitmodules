@@ -82,3 +82,7 @@
 	path = sourcedata/raw/sub-Hb2/micr/0.858um_I71_brain-STN_ROI-1.ome.zarr
 	url = https://github.com/dandizarrs/15a42361-c331-4755-95b8-133d8872857b
 	datalad-id = ba001ddf-444a-436c-a4dc-6c4ed10214d7
+[submodule "sourcedata/raw/sub-Hb2/micr/sub-Hb2_sample-leftHemi+STNblock_acq-zoom1_XPCT.ome.zarr"]
+	path = sourcedata/raw/sub-Hb2/micr/sub-Hb2_sample-leftHemi+STNblock_acq-zoom1_XPCT.ome.zarr
+	url = https://github.com/dandizarrs/15a42361-c331-4755-95b8-133d8872857b
+	datalad-id = ba001ddf-444a-436c-a4dc-6c4ed10214d7
