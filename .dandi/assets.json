@@ -24166,7 +24166,7 @@
 "blobDateModified":
 "2026-10-16T23:38:38.783513+02:00",
 "contentSize":
-0,
+65035210352,
 "contentUrl":
 [
 "https://api.dandiarchive.org/api/assets/cfdfd094-8596-48dd-8040-a8174718edc8/download/",
@@ -24177,7 +24177,7 @@
 "digest":
 {
 "dandi:dandi-zarr-checksum":
-null
+"a53700468245111f47c590619677da59-65--65035210352"
 },
 "encodingFormat":
 "application/x-zarr",
@@ -24227,11 +24227,11 @@ null
 ]
 },
 "modified":
-"2026-10-19T17:50:01.627650Z",
+"2026-10-19T18:04:09.591703Z",
 "path":
 "sourcedata/raw/sub-Hb2/micr/sub-Hb2_sample-leftHemi+STNblock_acq-zoom1_XPCT.ome.zarr",
 "size":
-0,
+65035210352,
 "zarr":
 "15a42361-c331-4755-95b8-133d8872857b"
 },
@@ -24346,7 +24346,7 @@ null
 "blobDateModified":
 "2026-10-16T23:51:43.210495+02:00",
 "contentSize":
-0,
+61929990569,
 "contentUrl":
 [
 "https://api.dandiarchive.org/api/assets/a6740ce3-f0e0-47f1-a797-8a8d0b5d22c7/download/",
@@ -24357,7 +24357,7 @@ null
 "digest":
 {
 "dandi:dandi-zarr-checksum":
-null
+"c44bc6ddce0fb117a42b73c67106354d-65--61929990569"
 },
 "encodingFormat":
 "application/x-zarr",
@@ -24407,11 +24407,11 @@ null
 ]
 },
 "modified":
-"2026-10-19T17:50:01.569665Z",
+"2026-10-19T18:01:52.092004Z",
 "path":
 "sourcedata/raw/sub-Hb2/micr/sub-Hb2_sample-leftHemi+STNblock_acq-zoom2_XPCT.ome.zarr",
 "size":
-0,
+61929990569,
 "zarr":
 "fe9be330-f9b3-4f71-aaec-12e29186a4a3"
 },
@@ -24557,7 +24557,7 @@ null
 "blobDateModified":
 "2026-10-16T23:38:35.465383+02:00",
 "contentSize":
-0,
+54660268937,
 "contentUrl":
 [
 "https://api.dandiarchive.org/api/assets/f852e642-62c6-4a44-a1c9-fed2b1064fab/download/",
@@ -24568,7 +24568,7 @@ null
 "digest":
 {
 "dandi:dandi-zarr-checksum":
-null
+"f26530ea06b816dec49bbbd46464358a-65--54660268937"
 },
 "encodingFormat":
 "application/x-zarr",
@@ -24618,11 +24618,11 @@ null
 ]
 },
 "modified":
-"2026-10-19T17:50:01.300818Z",
+"2026-10-19T18:02:16.617360Z",
 "path":
 "sourcedata/raw/sub-Hb2/micr/sub-Hb2_sample-leftHemi+STNblock_acq-zoom3_XPCT.ome.zarr",
 "size":
-0,
+54660268937,
 "zarr":
 "c32285e9-b86e-45bf-a303-eaa1ba1f08e9"
 },
