@@ -1,8 +1,9 @@
 {
-	"PixelSize" :[
-		1.848,
-		1.848,
-		1.848
-	],
-	"PixelSizeUnits": "um"
+    "PixelSize": [
+        1.848,
+        1.848,
+        1.848
+    ],
+    "PixelSizeUnits": "um",
+    "Note": "Slices z >= 594 (0-based, full resolution; 1.848 um voxels) are set to 0. Gas bubbles formed during the scan and caused strong streak artifacts beyond that depth. The array keeps the full scanned extent of 1785 slices. In downsampled level L, slices z >= ceil(594 / 2**L) are 0."
 }
