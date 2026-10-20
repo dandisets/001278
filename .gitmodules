@@ -98,3 +98,7 @@
 	path = sourcedata/raw/sub-Hb2/micr/sub-Hb2_sample-leftHemi+STNblock_acq-overview+16bit_XPCT.ome.zarr
 	url = https://github.com/dandizarrs/6c709842-7ed5-4674-8e57-72afb4cd3b59
 	datalad-id = a792d088-3367-41f9-8f06-5560dc13da63
+[submodule "derivatives/sub-Hb2/micr/sub-Hb2_sample-leftHemi+STNblock_acq-overview+16bit_desc-masked_XPCT.ome.zarr"]
+	path = derivatives/sub-Hb2/micr/sub-Hb2_sample-leftHemi+STNblock_acq-overview+16bit_desc-masked_XPCT.ome.zarr
+	url = https://github.com/dandizarrs/7e64a099-6009-4f57-a4d3-ac44140ea944
+	datalad-id = c912e32f-95c9-49e1-ad2b-7119853db118
