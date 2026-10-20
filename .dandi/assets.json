@@ -24078,7 +24078,7 @@
 "blobDateModified":
 "2026-10-20T01:44:24.828754+02:00",
 "contentSize":
-0,
+480466456538,
 "contentUrl":
 [
 "https://api.dandiarchive.org/api/assets/14c12b4b-1394-4b85-8e23-a12a34611ff9/download/",
@@ -24089,7 +24089,7 @@
 "digest":
 {
 "dandi:dandi-zarr-checksum":
-null
+"ff693ea0a236e5973d8f3f399834c7df-444--480466456538"
 },
 "encodingFormat":
 "application/x-zarr",
@@ -24139,11 +24139,11 @@ null
 ]
 },
 "modified":
-"2026-10-19T23:47:12.346511Z",
+"2026-10-20T01:00:48.681119Z",
 "path":
 "sourcedata/raw/sub-Hb2/micr/sub-Hb2_sample-leftHemi+STNblock_acq-overview+16bit_XPCT.ome.zarr",
 "size":
-0,
+480466456538,
 "zarr":
 "6c709842-7ed5-4674-8e57-72afb4cd3b59"
 },
