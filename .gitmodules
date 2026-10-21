@@ -98,3 +98,19 @@
 	path = sourcedata/raw/sub-Hb2/micr/sub-Hb2_sample-leftHemi+posteriorSlab+middleSlab_acq-overview_XPCT.ome.zarr
 	url = https://github.com/dandizarrs/7759b7d0-e01c-4ecd-b61f-c49c34817855
 	datalad-id = 8c594a02-c7be-4ef3-b03b-99be34fc5ba3
+[submodule "derivatives/sub-Hb2/micr/sub-Hb2_sample-leftHemi+posteriorSlab_acq-overview_desc-masked_XPCT.ome.zarr"]
+	path = derivatives/sub-Hb2/micr/sub-Hb2_sample-leftHemi+posteriorSlab_acq-overview_desc-masked_XPCT.ome.zarr
+	url = https://github.com/dandizarrs/d412b664-ebbb-43b8-9721-0819c9e893da
+	datalad-id = 9898b2ec-9784-49a1-936b-0f281e55a566
+[submodule "derivatives/sub-Hb2/micr/sub-Hb2_sample-leftHemi+middleSlab_acq-overview_desc-masked_XPCT.ome.zarr"]
+	path = derivatives/sub-Hb2/micr/sub-Hb2_sample-leftHemi+middleSlab_acq-overview_desc-masked_XPCT.ome.zarr
+	url = https://github.com/dandizarrs/af9a4ea7-2502-48b5-b810-80baae65d9bc
+	datalad-id = da56b217-79ae-4f2f-9a24-70aaf567a8f2
+[submodule "derivatives/sub-Hb2/micr/sub-Hb2_sample-leftHemi+middleSlab_acq-overview_desc-sample_mask.ome.zarr"]
+	path = derivatives/sub-Hb2/micr/sub-Hb2_sample-leftHemi+middleSlab_acq-overview_desc-sample_mask.ome.zarr
+	url = https://github.com/dandizarrs/e099e4fc-c0e8-4b17-9105-fdcf05540763
+	datalad-id = 03ecd4bb-b81c-4eb6-814e-7b45d8336a67
+[submodule "derivatives/sub-Hb2/micr/sub-Hb2_sample-leftHemi+posteriorSlab_acq-overview_desc-sample_mask.ome.zarr"]
+	path = derivatives/sub-Hb2/micr/sub-Hb2_sample-leftHemi+posteriorSlab_acq-overview_desc-sample_mask.ome.zarr
+	url = https://github.com/dandizarrs/956a4907-4212-42e2-8331-a243fa161fd9
+	datalad-id = ca3d3202-f363-435c-bb3a-48ceed7428ef
