@@ -114,3 +114,11 @@
 	path = derivatives/sub-Hb2/micr/sub-Hb2_sample-leftHemi+posteriorSlab_acq-overview_desc-sample_mask.ome.zarr
 	url = https://github.com/dandizarrs/956a4907-4212-42e2-8331-a243fa161fd9
 	datalad-id = ca3d3202-f363-435c-bb3a-48ceed7428ef
+[submodule "derivatives/sub-Hb2/micr/sub-Hb2_sample-leftHemi_acq-overview_desc-masked_XPCT.ome.zarr"]
+	path = derivatives/sub-Hb2/micr/sub-Hb2_sample-leftHemi_acq-overview_desc-masked_XPCT.ome.zarr
+	url = https://github.com/dandizarrs/53e4e1bf-d6a7-4346-9fc8-e500aad10b33
+	datalad-id = a6db84db-c2ed-4b4b-ae3c-7835dcc1c25b
+[submodule "derivatives/sub-Hb2/micr/sub-Hb2_sample-leftHemi_acq-overview_desc-sample_mask.ome.zarr"]
+	path = derivatives/sub-Hb2/micr/sub-Hb2_sample-leftHemi_acq-overview_desc-sample_mask.ome.zarr
+	url = https://github.com/dandizarrs/0601cd96-acfb-4fa6-a98f-8977c411a07f
+	datalad-id = b9722c16-8eae-4462-bf60-377d62ee31d1
