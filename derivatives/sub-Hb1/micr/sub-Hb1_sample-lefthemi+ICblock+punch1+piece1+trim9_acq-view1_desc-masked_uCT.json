@@ -1,0 +1,7 @@
+{
+  "Description": "Raw micro-CT volume with air, embedding resin and reconstruction padding set to 0 (voxels outside the tissue mask).",
+  "Sources": [
+    "bids::sourcedata/raw/sub-Hb1/micr/sub-Hb1_sample-lefthemi+ICblock+punch1+piece1+trim9_acq-view1_uCT.ome.zarr",
+    "bids::derivatives/sub-Hb1/micr/sub-Hb1_sample-lefthemi+ICblock+punch1+piece1+trim9_acq-view1_desc-sample_mask.ome.zarr"
+  ]
+}

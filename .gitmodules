@@ -130,3 +130,27 @@
 	path = derivatives/sub-Hb1/micr/sub-Hb1_sample-lefthemi_acq-overview_desc-sample_mask.ome.zarr
 	url = https://github.com/dandizarrs/93842e20-3137-4918-8c8f-47b1865ace77
 	datalad-id = 4ca83381-e12b-42b9-9c15-6292dd0b6d90
+[submodule "derivatives/sub-Hb1/micr/sub-Hb1_sample-lefthemi+ICblock+punch1+piece1+trim2_desc-sample_mask.ome.zarr"]
+	path = derivatives/sub-Hb1/micr/sub-Hb1_sample-lefthemi+ICblock+punch1+piece1+trim2_desc-sample_mask.ome.zarr
+	url = https://github.com/dandizarrs/d6f97b26-dd6f-42c4-b9a4-88772ee11098
+	datalad-id = 7c518ddb-7c53-43fd-91c5-d018af0f865d
+[submodule "derivatives/sub-Hb1/micr/sub-Hb1_sample-lefthemi+ICblock+punch1+piece1+trim2_desc-masked_uCT.ome.zarr"]
+	path = derivatives/sub-Hb1/micr/sub-Hb1_sample-lefthemi+ICblock+punch1+piece1+trim2_desc-masked_uCT.ome.zarr
+	url = https://github.com/dandizarrs/134a2fe3-55b9-44ea-aacd-cd760df01ce6
+	datalad-id = 745aa776-c128-4622-82d5-58c8bc59e17f
+[submodule "derivatives/sub-Hb1/micr/sub-Hb1_sample-lefthemi+ICblock+punch1+piece1+trim9_acq-view1_desc-sample_mask.ome.zarr"]
+	path = derivatives/sub-Hb1/micr/sub-Hb1_sample-lefthemi+ICblock+punch1+piece1+trim9_acq-view1_desc-sample_mask.ome.zarr
+	url = https://github.com/dandizarrs/aaee3654-e6fb-4dee-b361-73d79cc84796
+	datalad-id = 362c1050-5078-495f-94ef-9fd038462120
+[submodule "derivatives/sub-Hb1/micr/sub-Hb1_sample-lefthemi+ICblock+punch1+piece1+trim9_acq-view1_desc-masked_uCT.ome.zarr"]
+	path = derivatives/sub-Hb1/micr/sub-Hb1_sample-lefthemi+ICblock+punch1+piece1+trim9_acq-view1_desc-masked_uCT.ome.zarr
+	url = https://github.com/dandizarrs/8a994baf-a833-48ac-bf16-83d997d0a292
+	datalad-id = b97f5a5e-c572-4338-acc1-dd72e0e33552
+[submodule "derivatives/sub-Hb1/micr/sub-Hb1_sample-lefthemi+ICblock+punch1+piece1+trim9_acq-view2_desc-masked_uCT.ome.zarr"]
+	path = derivatives/sub-Hb1/micr/sub-Hb1_sample-lefthemi+ICblock+punch1+piece1+trim9_acq-view2_desc-masked_uCT.ome.zarr
+	url = https://github.com/dandizarrs/1ea71c0f-aa3e-4d64-8a46-8cfaabea6b07
+	datalad-id = f45bddfe-4c8d-4ab8-a30a-6632c653d9f3
+[submodule "derivatives/sub-Hb1/micr/sub-Hb1_sample-lefthemi+ICblock+punch1+piece1+trim9_acq-view2_desc-sample_mask.ome.zarr"]
+	path = derivatives/sub-Hb1/micr/sub-Hb1_sample-lefthemi+ICblock+punch1+piece1+trim9_acq-view2_desc-sample_mask.ome.zarr
+	url = https://github.com/dandizarrs/e0840191-713b-41bc-bcf5-7df198f2a25f
+	datalad-id = def8c4e6-f272-411d-89b8-623b229df77f

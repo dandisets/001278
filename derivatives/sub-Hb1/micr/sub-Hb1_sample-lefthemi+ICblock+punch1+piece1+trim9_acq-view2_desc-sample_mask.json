@@ -1,0 +1,6 @@
+{
+  "Description": "Binary tissue mask (1 = tissue, 0 = air, embedding resin, padding). Computed at pyramid level 1: gaussian smoothing (sigma 1.5 voxels), intensity above 28400, inside the non-zero region eroded by 3 voxels, opening, components smaller than 1% of the largest removed, closing, enclosed holes filled; nearest-neighbour resampled to all levels.",
+  "Sources": [
+    "bids::sourcedata/raw/sub-Hb1/micr/sub-Hb1_sample-lefthemi+ICblock+punch1+piece1+trim9_acq-view2_uCT.ome.zarr"
+  ]
+}
