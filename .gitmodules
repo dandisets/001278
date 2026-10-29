@@ -154,3 +154,7 @@
 	path = derivatives/sub-Hb1/micr/sub-Hb1_sample-lefthemi+ICblock+punch1+piece1+trim9_acq-view2_desc-sample_mask.ome.zarr
 	url = https://github.com/dandizarrs/e0840191-713b-41bc-bcf5-7df198f2a25f
 	datalad-id = def8c4e6-f272-411d-89b8-623b229df77f
+[submodule "derivatives/sub-Hb1/dwi/sub-Hb1_sample-LeftHemi_space-XPCT_acq-HighRes+MultiShell_dwi.nii.zarr"]
+	path = derivatives/sub-Hb1/dwi/sub-Hb1_sample-LeftHemi_space-XPCT_acq-HighRes+MultiShell_dwi.nii.zarr
+	url = https://github.com/dandizarrs/c01f6d31-205e-40fe-a761-0cb8b63bce47
+	datalad-id = ca9b4925-c9cf-45e1-9332-65f8501eabf0
