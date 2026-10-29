@@ -166,3 +166,7 @@
 	path = derivatives/sub-Hb1/dwi/sub-Hb1_sample-lefthemi_space-XPCT_acq-highres_desc-WMorientation.nii.zarr
 	url = https://github.com/dandizarrs/5f41916f-e900-478a-b813-ec1ea095e1ad
 	datalad-id = e6d13113-64f4-4ea4-8186-0c88d28f7c36
+[submodule "derivatives/sub-Hb1/anat/sub-Hb1_sample-lefthemi_space-XPCT_acq-FLASH_T2starw.nii.zarr"]
+	path = derivatives/sub-Hb1/anat/sub-Hb1_sample-lefthemi_space-XPCT_acq-FLASH_T2starw.nii.zarr
+	url = https://github.com/dandizarrs/97691c51-846e-4777-b2e5-68ff09b4357b
+	datalad-id = ff559e7d-bd5c-4291-892a-bb679c3a8805
