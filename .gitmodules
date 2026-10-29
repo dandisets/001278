@@ -158,3 +158,11 @@
 	path = derivatives/sub-Hb1/dwi/sub-Hb1_sample-LeftHemi_space-XPCT_acq-HighRes+MultiShell_dwi.nii.zarr
 	url = https://github.com/dandizarrs/c01f6d31-205e-40fe-a761-0cb8b63bce47
 	datalad-id = ca9b4925-c9cf-45e1-9332-65f8501eabf0
+[submodule "derivatives/sub-Hb1/dwi/sub-Hb1_sample-lefthemi_space-XPCT_acq-highres_desc-bratio+mean.nii.zarr"]
+	path = derivatives/sub-Hb1/dwi/sub-Hb1_sample-lefthemi_space-XPCT_acq-highres_desc-bratio+mean.nii.zarr
+	url = https://github.com/dandizarrs/4e3c4b54-9a75-42b4-901b-123b36fd02dd
+	datalad-id = d3fab737-5ac9-4fc2-9d56-e6b92b10b77c
+[submodule "derivatives/sub-Hb1/dwi/sub-Hb1_sample-lefthemi_space-XPCT_acq-highres_desc-WMorientation.nii.zarr"]
+	path = derivatives/sub-Hb1/dwi/sub-Hb1_sample-lefthemi_space-XPCT_acq-highres_desc-WMorientation.nii.zarr
+	url = https://github.com/dandizarrs/5f41916f-e900-478a-b813-ec1ea095e1ad
+	datalad-id = e6d13113-64f4-4ea4-8186-0c88d28f7c36
