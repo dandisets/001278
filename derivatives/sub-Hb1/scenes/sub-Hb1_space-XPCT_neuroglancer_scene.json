@@ -1,5 +1,5 @@
 {
-  "title": "Hb1 datasets in HiP-CT (XPCT) space",
+  "title": "Hb1 datasets in HiP-CT space",
   "dimensions": {
     "x": [
       0.000010072,
@@ -20,9 +20,9 @@
     "z"
   ],
   "position": [
-    7514.68115234375,
-    7697.43017578125,
-    7595.8310546875
+    6243.87353515625,
+    7460.25927734375,
+    6328.17724609375
   ],
   "crossSectionOrientation": [
     0.03106757625937462,
@@ -42,15 +42,16 @@
     {
       "type": "image",
       "source": {
-        "url": "https://dandiarchive.s3.amazonaws.com/zarr/6f11427f-ef86-42b8-9800-d3e09265c965/|zarr3:",
+        "url": "https://dandiarchive.s3.amazonaws.com/zarr/5c428664-342c-4bce-b853-7112fee872a8/|zarr3:",
         "subsources": {
           "default": true
         },
         "enableDefaultSubsources": false
       },
-      "tab": "source",
+      "tab": "rendering",
       "annotationColor": "#000000",
       "opacity": 1,
+      "shader": "#uicontrol invlerp normalized\nvoid main() {\n  int val = int(getDataValue().value);\n  if(val == 0) discard;\n  emitGrayscale(normalized());\n}\n",
       "shaderControls": {
         "normalized": {
           "range": [
@@ -59,7 +60,7 @@
           ]
         }
       },
-      "crossSectionRenderScale": 0.125,
+      "crossSectionRenderScale": 0.0625,
       "name": "Whole-hemisphere HiP-CT overview @ 20.07 μm"
     },
     {
@@ -69,22 +70,22 @@
         "transform": {
           "matrix": [
             [
-              0.999445745,
-              0.031534287,
-              -0.011279779,
-              3817.405521157
+              0.9931247168,
+              0.0184512526,
+              0.0029150631,
+              3828.3811544528
             ],
             [
-              -0.031774949,
-              0.999263261,
-              -0.021834133,
-              4528.589463744
+              -0.0157939686,
+              0.9884163429,
+              0.0026193538,
+              4500.1613698159
             ],
             [
-              0.010582873,
-              0.022180297,
-              0.999704696,
-              5999.076104469
+              -0.0027621041,
+              0.0008893249,
+              0.9849203335,
+              6071.277024768
             ]
           ],
           "outputDimensions": {
@@ -100,20 +101,6 @@
               0.000010072,
               "m"
             ]
-          },
-          "inputDimensions": {
-            "x": [
-              0.000004257,
-              "m"
-            ],
-            "y": [
-              0.000004257,
-              "m"
-            ],
-            "z": [
-              0.000004257,
-              "m"
-            ]
           }
         },
         "subsources": {
@@ -121,8 +108,9 @@
         },
         "enableDefaultSubsources": false
       },
-      "tab": "source",
+      "tab": "rendering",
       "opacity": 0.7,
+      "shader": "#uicontrol invlerp normalized\nvoid main() {\n  int val = int(getDataValue().value);\n  if(val == 0) discard;\n  emitGrayscale(normalized());\n}\n",
       "shaderControls": {
         "normalized": {
           "range": [
@@ -143,22 +131,22 @@
         "transform": {
           "matrix": [
             [
-              0.999909194,
-              0.013965872,
-              0,
-              4334.204773901
+              0.9912468456,
+              0.0196920447,
+              0.000069219,
+              4340.9898231458
             ],
             [
-              -0.013965872,
-              0.999909194,
-              0,
-              5189.032510958
+              -0.0167907499,
+              0.9860871874,
+              0.0011206967,
+              5209.8876364259
             ],
             [
-              0,
-              0,
-              1.000006721,
-              6968.613014089
+              -0.0027869987,
+              -0.0008044963,
+              0.9865808268,
+              6976.6383806323
             ]
           ],
           "outputDimensions": {
@@ -195,13 +183,18 @@
         },
         "enableDefaultSubsources": false
       },
-      "tab": "source",
+      "tab": "rendering",
       "opacity": 1,
+      "shader": "#uicontrol invlerp normalized\nvoid main() {\n  int val = int(getDataValue().value);\n  if(val == 0) discard;\n  emitGrayscale(normalized());\n}\n",
       "shaderControls": {
         "normalized": {
           "range": [
-            6742,
-            11069
+            6840,
+            10096
+          ],
+          "window": [
+            0,
+            11377
           ]
         }
       },
@@ -217,22 +210,22 @@
         "transform": {
           "matrix": [
             [
-              0.14039953548310932,
-              -0.13382940302718802,
-              1.0065435503447786,
-              4300.062375991383
+              0.127222225,
+              -0.0995966934,
+              1.0235614556,
+              4256.3891263348
             ],
             [
-              -1.0136830112081383,
-              -0.1386750289640636,
-              0.11313775778975094,
-              8526.237776473283
+              -1.0046822391,
+              -0.1419792183,
+              0.1042943449,
+              8527.1764323209
             ],
             [
-              0.10741563188968763,
-              -0.9898634437880025,
-              -0.13785724297479396,
-              9126.491894368144
+              0.1179940199,
+              -0.9881479151,
+              -0.1105903539,
+              9070.3793290834
             ]
           ],
           "outputDimensions": {
@@ -259,6 +252,7 @@
       "tab": "source",
       "annotationColor": "#eeeeec",
       "opacity": 0.51,
+      "shader": "#uicontrol invlerp normalized\nvoid main() {\n  int val = int(getDataValue().value);\n  if(val == 0) discard;\n  emitGrayscale(normalized());\n}\n",
       "shaderControls": {
         "normalized": {
           "range": [
@@ -278,22 +272,22 @@
         "transform": {
           "matrix": [
             [
-              0.144984143,
-              -0.128848519,
-              1.00654355,
-              4635.264737837
+              0.1267381609,
+              -0.0979335686,
+              1.0237619753,
+              4578.3268934086
             ],
             [
-              -1.008226474,
-              -0.173964058,
-              0.113137758,
-              5919.323568954
+              -1.0040501005,
+              -0.1444284909,
+              0.1034541326,
+              5936.3223629739
             ],
             [
-              0.141892491,
-              -0.985512241,
-              -0.137857243,
-              8869.001388558
+              0.1192084023,
+              -0.9885284447,
+              -0.1094564334,
+              8844.0587976021
             ]
           ],
           "outputDimensions": {
@@ -326,8 +320,10 @@
           }
         }
       },
-      "tab": "source",
-      "name": "Chunk HiP-CT zoom 1 @ 0.857 μm"
+      "tab": "rendering",
+      "shader": "#uicontrol invlerp normalized\nvoid main() {\n  int val = int(getDataValue().value);\n  if(val == 0) discard;\n  emitGrayscale(normalized());\n}\n",
+      "name": "Chunk HiP-CT zoom 1 @ 0.857 μm",
+      "visible": false
     },
     {
       "type": "image",
@@ -336,22 +332,22 @@
         "transform": {
           "matrix": [
             [
-              -0.4502544549999999,
-              -0.396496788,
-              0.8311518989999999,
-              5032.88809815
+              -0.5403606409,
+              -0.2924030083,
+              0.7498323235,
+              5012.8825341693
             ],
             [
-              -0.864930878,
-              -0.13040490499999996,
-              -0.5426539419999998,
-              6724.477180111
+              -0.802917024,
+              -0.0652076734,
+              -0.5224657044,
+              6687.9465813239
             ],
             [
-              0.29387140499999986,
-              -0.9224743079999997,
-              -0.2702834119999999,
-              9258.929699884
+              0.2439501288,
+              -1.0032220191,
+              -0.182257624,
+              9241.8538841416
             ]
           ],
           "outputDimensions": {
@@ -367,13 +363,27 @@
               0.000010072,
               "m"
             ]
+          },
+          "inputDimensions": {
+            "x": [
+              0.0000036900000000000002,
+              "m"
+            ],
+            "y": [
+              0.0000036900000000000002,
+              "m"
+            ],
+            "z": [
+              0.0000036900000000000002,
+              "m"
+            ]
           }
         }
       },
-      "tab": "source",
+      "tab": "rendering",
       "annotationColor": "#ff0000",
       "opacity": 1,
-      "shader": "#uicontrol invlerp normalized\n#uicontrol float alpha_threshold slider(min=0, max=1)\nvoid main() {\n  vec4 rgba;\n  rgba[0] = normalized();\n  rgba[1] = normalized();\n  rgba[2] = normalized();\n  rgba[3] = float(normalized() > alpha_threshold);\n  emitRGBA(rgba);\n}",
+      "shader": "#uicontrol invlerp normalized\n#uicontrol float alpha_threshold slider(min=0, max=1)\nvoid main() {\n  int val = int(getDataValue().value);\n  if(val == 0 || normalized() < alpha_threshold) discard;\n  emitGrayscale(normalized());\n}",
       "shaderControls": {
         "normalized": {
           "range": [
@@ -394,30 +404,30 @@
     {
       "type": "image",
       "source": {
-        "url": "https://dandiarchive.s3.amazonaws.com/zarr/c73dec16-644d-4801-9792-2e8fce8602de/|zarr3:",
+        "url": "https://dandiarchive.s3.amazonaws.com/zarr/134a2fe3-55b9-44ea-aacd-cd760df01ce6/|zarr3:",
         "transform": {
           "matrix": [
             [
-              0.69276431,
-              -0.349635889,
-              0.669764596,
-              4857.954058921
+              -0.1773921669,
+              -1.0234619266,
+              -0.1424097098,
+              9185.1636351638
             ],
             [
-              -0.732281269,
-              -0.03886225,
-              0.722383576,
-              6133.579411086
+              0.6542601068,
+              0.0190633371,
+              -0.7026523803,
+              6151.2452752183
             ],
             [
-              -0.218813203,
-              -0.947328126,
-              -0.255073672,
-              9232.566710563
+              0.7332922523,
+              -0.2335983496,
+              0.5892503678,
+              4791.7152959106
             ]
           ],
           "outputDimensions": {
-            "x": [
+            "z": [
               0.000010072,
               "m"
             ],
@@ -425,17 +435,17 @@
               0.000010072,
               "m"
             ],
-            "z": [
+            "x": [
               0.000010072,
               "m"
             ]
           }
         }
       },
-      "tab": "source",
+      "tab": "rendering",
       "annotationColor": "#00ff00",
       "opacity": 1,
-      "shader": "#uicontrol invlerp normalized\n#uicontrol float alpha_threshold slider(min=0, max=1)\nvoid main() {\n  vec4 rgba;\n  rgba[0] = normalized();\n  rgba[1] = normalized();\n  rgba[2] = normalized();\n  rgba[3] = float(normalized() > alpha_threshold);\n  emitRGBA(rgba);\n}",
+      "shader": "#uicontrol invlerp normalized\n#uicontrol float alpha_threshold slider(min=0, max=1)\nvoid main() {\n  int val = int(getDataValue().value);\n  if(val == 0 || normalized() < alpha_threshold) discard;\n  emitGrayscale(normalized());\n}",
       "shaderControls": {
         "alpha_threshold": 0.3
       },
@@ -446,30 +456,30 @@
     {
       "type": "image",
       "source": {
-        "url": "https://dandiarchive.s3.amazonaws.com/zarr/a681e174-ae6b-4fc7-8576-6f2f96dc12e4/|zarr3:",
+        "url": "https://dandiarchive.s3.amazonaws.com/zarr/8a994baf-a833-48ac-bf16-83d997d0a292/|zarr3:",
         "transform": {
           "matrix": [
             [
-              0.705476336,
-              0.401998544,
-              -0.625661704,
-              5141.050013711
+              0.2237665528,
+              1.0097934801,
+              -0.1719908836,
+              8847.0535405618
             ],
             [
-              -0.708394149,
-              0.059989321,
-              -0.744421368,
-              6254.434066215
+              -0.6969996941,
+              0.0072037705,
+              -0.6600624238,
+              6267.0009942367
             ],
             [
-              -0.251926854,
-              0.926586042,
-              0.297226416,
-              8870.661441948
+              -0.6807534741,
+              0.2827806534,
+              0.6297136383,
+              5105.424905293
             ]
           ],
           "outputDimensions": {
-            "x": [
+            "z": [
               0.000010072,
               "m"
             ],
@@ -477,16 +487,17 @@
               0.000010072,
               "m"
             ],
-            "z": [
+            "x": [
               0.000010072,
               "m"
             ]
           }
         }
       },
-      "tab": "source",
+      "tab": "rendering",
       "annotationColor": "#0000ff",
       "opacity": 0.88,
+      "shader": "#uicontrol invlerp normalized\nvoid main() {\n  int val = int(getDataValue().value);\n  if(val == 0) discard;\n  emitGrayscale(normalized());\n}\n",
       "crossSectionRenderScale": 0.0625,
       "name": "Punch 1 trim 9 micro-CT scan @ 0.369 μm"
     },
@@ -533,7 +544,7 @@
       },
       "tab": "source",
       "opacity": 1,
-      "shader": "#uicontrol invlerp normalized\n#uicontrol float alpha_threshold slider(min=0, max=1)\nvoid main() {\n  vec4 rgba;\n  rgba[0] = normalized();\n  rgba[1] = normalized();\n  rgba[2] = normalized();\n  rgba[3] = float(normalized() > alpha_threshold);\n  emitRGBA(rgba);\n}",
+      "shader": "#uicontrol invlerp normalized\n#uicontrol float alpha_threshold slider(min=0, max=1)\nvoid main() {\n  int val = int(getDataValue().value);\n  if(val == 0 || normalized() < alpha_threshold) discard;\n  emitGrayscale(normalized());\n}",
       "shaderControls": {
         "alpha_threshold": 0.2
       },
@@ -545,36 +556,36 @@
     {
       "type": "image",
       "source": {
-        "url": "https://dandiarchive.s3.amazonaws.com/blobs/eb9/466/eb9466e7-8c4e-4c5d-b6ed-7ae68d177fa9|gzip:|nifti:",
+        "url": "https://dandiarchive.s3.amazonaws.com/zarr/97691c51-846e-4777-b2e5-68ff09b4357b|zarr3:",
         "transform": {
           "matrix": [
             [
+              0,
+              -0.9706247451895452,
+              -0.2066577801327031,
               -0.11894137391569905,
-              -0.20665778013270308,
-              -0.9706247451895451,
-              0,
-              17242.415092034433
+              17234.6901382374
             ],
             [
-              -0.052195768210731366,
-              0.97807106250626,
-              -0.20285986367712372,
-              0,
-              4506.366962511122
-            ],
-            [
-              -0.9915283916015403,
-              -0.025875830392451758,
-              0.12936568221375114,
-              0,
-              17055.69048183336
-            ],
-            [
-              0,
-              0,
-              0,
               1,
+              0,
+              0,
+              0,
               0
+            ],
+            [
+              0,
+              0.12936568221375117,
+              -0.025875830392451758,
+              -0.9915283916015403,
+              17050.41511193342
+            ],
+            [
+              0,
+              -0.20285986367712375,
+              0.9780710625062601,
+              -0.052195768210731366,
+              4510.65795221051
             ]
           ],
           "outputDimensions": {
@@ -582,46 +593,50 @@
               0.000010072,
               "m"
             ],
-            "y": [
-              0.000010072,
-              "m"
+            "c^": [
+              1,
+              ""
             ],
             "z": [
               0.000010072,
               "m"
             ],
-            "c^": [
-              1,
-              ""
+            "y": [
+              0.000010072,
+              "m"
             ]
           },
           "inputDimensions": {
-            "i": [
-              0.00011972966790199279,
-              "m"
-            ],
-            "j": [
-              0.00011968857795000076,
-              "m"
-            ],
-            "k": [
-              0.00012016598880290986,
-              "m"
-            ],
-            "m": [
+            "t": [
               1,
-              ""
+              "s"
+            ],
+            "z": [
+              0.00012016598880290984,
+              "m"
+            ],
+            "y": [
+              0.00011968857795000075,
+              "m"
+            ],
+            "x": [
+              0.0001197296679019928,
+              "m"
             ]
           }
         }
       },
-      "tab": "source",
-      "shader": "\n#uicontrol invlerp normalized\nvoid main() {\nemitGrayscale(normalized());\n}\n",
+      "tab": "rendering",
+      "shader": "#uicontrol invlerp normalized\nvoid main() {\n  if(getDataValue() == 0.0) discard;\n  emitGrayscale(normalized());\n}\n",
       "shaderControls": {
         "normalized": {
+          "range": [
+            28.27190855579448,
+            50.582540472167494
+          ],
           "window": [
-            -65536,
-            65536
+            -12.785262549383111,
+            63.335809004806606
           ]
         }
       },
@@ -750,41 +765,42 @@
         "865": "#550000",
         "869": "#aaff00"
       },
-      "name": "Whole-hemisphere MRI-derived segmentation"
+      "name": "Whole-hemisphere MRI-derived segmentation",
+      "visible": false
     },
     {
       "type": "image",
       "source": {
-        "url": "https://dandiarchive.s3.amazonaws.com/blobs/04c/ede/04cede5d-46ff-4e98-9575-50792a6da40e|gzip:|nifti:",
+        "url": "https://dandiarchive.s3.amazonaws.com/zarr/5f41916f-e900-478a-b813-ec1ea095e1ad|zarr3:",
         "transform": {
           "matrix": [
             [
-              -4.930379922947475e-32,
-              2.220446049250313e-16,
+              0,
               1,
               0,
-              2339.7043808951466
+              0,
+              614.1169758615654
             ],
             [
               1,
-              2.220446049250313e-16,
-              -2.9387341234293262e-39,
-              0,
-              4097.0996948368875
-            ],
-            [
-              2.2204457183781223e-16,
-              -1,
-              2.220446049250313e-16,
-              0,
-              17251.77329575097
-            ],
-            [
               0,
               0,
               0,
-              1,
               0
+            ],
+            [
+              0,
+              0,
+              -1,
+              0,
+              15684.85953866536
+            ],
+            [
+              0,
+              0,
+              0,
+              1,
+              4633.23918858438
             ]
           ],
           "outputDimensions": {
@@ -792,46 +808,28 @@
               0.000010072,
               "m"
             ],
-            "y": [
-              0.000010072,
-              "m"
+            "c^": [
+              1,
+              ""
             ],
             "z": [
               0.000010072,
               "m"
             ],
-            "c^": [
-              1,
-              "s"
-            ]
-          },
-          "inputDimensions": {
-            "i": [
-              0.00040000006556510924,
+            "y": [
+              0.000010072,
               "m"
-            ],
-            "j": [
-              0.00039954304695129396,
-              "m"
-            ],
-            "k": [
-              0.00039954304695129396,
-              "m"
-            ],
-            "m": [
-              1,
-              ""
             ]
           }
         }
       },
       "tab": "rendering",
-      "shader": "#uicontrol invlerp red(channel=0)\n#uicontrol invlerp green(channel=1)\n#uicontrol invlerp blue(channel=2)\n\nvoid main () {\n  emitRGB(vec3(red(),green(),blue()));\n}\n",
+      "shader": "#uicontrol invlerp red(channel=0)\n#uicontrol invlerp green(channel=1)\n#uicontrol invlerp blue(channel=2)\nvoid main() {\n  emitRGB(vec3(red(), green(), blue()));\n}\n",
       "crossSectionRenderScale": 0.0625,
       "channelDimensions": {
         "c^": [
           1,
-          "s"
+          ""
         ]
       },
       "name": "Diffusion MRI direction-encoded colors @ 400 μm",
@@ -840,40 +838,30 @@
     {
       "type": "image",
       "source": {
-        "url": "https://dandiarchive.s3.amazonaws.com/blobs/e44/c5b/e44c5b80-ad1d-4791-8826-8cb051070b4b|gzip:|nifti:",
+        "url": "https://dandiarchive.s3.amazonaws.com/zarr/4e3c4b54-9a75-42b4-901b-123b36fd02dd|zarr3:",
         "transform": {
           "matrix": [
             [
-              -4.930379922947475e-32,
-              2.220446049250313e-16,
-              1,
               0,
-              2339.7043808951466
-            ],
-            [
-              1,
-              2.220446049250313e-16,
-              -2.9387341234293262e-39,
-              0,
-              4097.0996948368875
-            ],
-            [
-              2.2204457183781223e-16,
               -1,
-              2.220446049250313e-16,
               0,
-              17251.77329575097
+              15684.85953866536
             ],
             [
               0,
               0,
-              0,
               1,
-              0
+              4633.23918858438
+            ],
+            [
+              1,
+              0,
+              0,
+              614.1169758615654
             ]
           ],
           "outputDimensions": {
-            "x": [
+            "z": [
               0.000010072,
               "m"
             ],
@@ -881,46 +869,22 @@
               0.000010072,
               "m"
             ],
-            "z": [
+            "x": [
               0.000010072,
               "m"
-            ],
-            "c^": [
-              1,
-              ""
-            ]
-          },
-          "inputDimensions": {
-            "i": [
-              0.00040000006556510924,
-              "m"
-            ],
-            "j": [
-              0.00039954304695129396,
-              "m"
-            ],
-            "k": [
-              0.00039954304695129396,
-              "m"
-            ],
-            "m": [
-              1,
-              ""
             ]
           }
-        },
-        "subsources": {
-          "default": true
-        },
-        "enableDefaultSubsources": false
+        }
       },
       "tab": "source",
-      "shader": "\n#uicontrol invlerp normalized\nvoid main() {\nemitGrayscale(normalized());\n}\n",
-      "channelDimensions": {
-        "c^": [
-          1,
-          ""
-        ]
+      "shader": "#uicontrol invlerp normalized\nvoid main() {\n  if(getDataValue() == 0.0) discard;\n  emitGrayscale(normalized());\n}\n",
+      "shaderControls": {
+        "normalized": {
+          "range": [
+            0.0048,
+            0.9234
+          ]
+        }
       },
       "name": "Diffusion MRI average gradient map @ 400 μm",
       "visible": false
@@ -972,7 +936,8 @@
       },
       "tab": "source",
       "shader": "void main () {\n  setColor(prop_orientation_color());\n  setLineWidth(0.1);\n  setEndpointMarkerSize(0.0);\n}",
-      "name": "Diffusion MRI tractography"
+      "name": "Diffusion MRI tractography",
+      "visible": false
     }
   ],
   "showSlices": false,
@@ -981,6 +946,7 @@
   "concurrentDownloads": 1000,
   "selectedLayer": {
     "size": 621,
+    "visible": true,
     "layer": "Whole-hemisphere HiP-CT overview @ 20.07 μm"
   },
   "crossSectionBackgroundColor": "#000000",
@@ -991,5 +957,6 @@
   },
   "layerListPanel": {
     "size": 718
-  }
+  },
+  "uiControlVisibility": {}
 }
