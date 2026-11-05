@@ -20,15 +20,15 @@
     "z"
   ],
   "position": [
-    6243.87353515625,
-    7460.25927734375,
-    6328.17724609375
+    7100.66943359375,
+    7375.958984375,
+    8574.78515625
   ],
   "crossSectionOrientation": [
-    0.03106757625937462,
-    0.03915003314614296,
-    0.7823479771614075,
-    0.6208330988883972
+    -0.008465742692351341,
+    0.07354719936847687,
+    0.7508567571640015,
+    0.6563026905059814
   ],
   "crossSectionScale": 20.085536923187647,
   "projectionOrientation": [
@@ -494,12 +494,13 @@
           }
         }
       },
-      "tab": "rendering",
+      "tab": "annotations",
       "annotationColor": "#0000ff",
       "opacity": 0.88,
       "shader": "#uicontrol invlerp normalized\nvoid main() {\n  int val = int(getDataValue().value);\n  if(val == 0) discard;\n  emitGrayscale(normalized());\n}\n",
       "crossSectionRenderScale": 0.0625,
-      "name": "Punch 1 trim 9 micro-CT scan @ 0.369 μm"
+      "name": "Punch 1 trim 9 micro-CT scan @ 0.369 μm",
+      "visible": false
     },
     {
       "type": "image",
@@ -735,7 +736,8 @@
       "localPosition": [
         0.5
       ],
-      "tab": "source",
+      "tab": "rendering",
+      "selectedAlpha": 0.3,
       "segments": [],
       "segmentColors": {
         "0": "#000000",
@@ -765,8 +767,7 @@
         "865": "#550000",
         "869": "#aaff00"
       },
-      "name": "Whole-hemisphere MRI-derived segmentation",
-      "visible": false
+      "name": "Whole-hemisphere MRI-derived segmentation"
     },
     {
       "type": "image",
@@ -936,18 +937,17 @@
       },
       "tab": "source",
       "shader": "void main () {\n  setColor(prop_orientation_color());\n  setLineWidth(0.1);\n  setEndpointMarkerSize(0.0);\n}",
-      "name": "Diffusion MRI tractography",
-      "visible": false
+      "name": "Diffusion MRI tractography"
     }
   ],
+  "showAxisLines": false,
   "showSlices": false,
-  "gpuMemoryLimit": 100000000000,
-  "systemMemoryLimit": 200000000000,
+  "gpuMemoryLimit": 1000000000000,
+  "systemMemoryLimit": 2000000000000,
   "concurrentDownloads": 1000,
   "selectedLayer": {
     "size": 621,
-    "visible": true,
-    "layer": "Whole-hemisphere HiP-CT overview @ 20.07 μm"
+    "layer": "Whole-hemisphere MRI-derived segmentation"
   },
   "crossSectionBackgroundColor": "#000000",
   "layout": "4panel-alt",
